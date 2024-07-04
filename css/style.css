@@ -1,0 +1,135 @@
+body{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #504E42;
+}
+
+header{
+    text-align: center;
+    color: #3F29FA;
+}
+
+nav{
+    background-color: #FADC28;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #55517A;
+    margin-right: 30px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    color: #574CBA;
+}
+
+/*Layout utilizando CSS grid*/
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.item{
+    background-color: #FADC28;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+/*Estilo básico para imagem*/
+.img-hover{
+    transition: transform 0.3s ease;
+    width:60%;
+    height: 80%;
+    border-radius: 5%;
+}
+
+.img-hover:hover{
+    transform: scale(1.1);
+}
+
+.button{
+    background-color: #3F29FA;
+    color:#FADC28;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:2px double #574CBA;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button:hover{
+    background-color: #574CBA;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #FADC28;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    margin: 0;
+    color:#504E42;
+}
+
+footer a{
+    text-decoration: none;
+    color:#3F29FA;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.custom-table th {
+    background-color: #574CBA;
+    color: #FADC28;
+    padding: 10px;
+}
+
+.custom-table td {
+    border: 2px solid #574CBA;
+    padding: 8px;
+    text-align: center;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.custom-table tr:nth-child(odd) {
+    background-color: #FADC28;
+}
